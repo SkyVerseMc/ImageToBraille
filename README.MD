@@ -3,7 +3,7 @@
 A tool that converts images to Braille text and vice versa.
 
 ## How to install
-You can clone this repo, copy the contents of ImageToBraille.java or [download the jar file](./releases).
+You can clone this repo, copy the contents of ImageToBraille.java or [download the jar file](https://github.com/SkyVerseMc/ImageToBraille/releases).
 
 ## How to use it
 
