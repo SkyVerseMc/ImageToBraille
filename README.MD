@@ -52,8 +52,8 @@ BufferedImage image = ImageToBraille.fromBraille(brailleLines);
 Also works if `brailleLines` is a list of string:
 ```java 
 List<String> brailleLines = new ArrayList<String>();
-list.add("⠀⠀⠀⠀⠀⠀⢀⣠⣤⣶");
-list.add("⣀⣀⣤⣴⣾⣿⣿⣿⣿");
+brailleLines.add("⠀⠀⠀⠀⠀⠀⢀⣠⣤⣶");
+brailleLines.add("⣀⣀⣤⣴⣾⣿⣿⣿⣿");
 // More lines
 
 BufferedImage image = ImageToBraille.fromBraille(brailleLines);
