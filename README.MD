@@ -45,7 +45,7 @@ List<String> lines = ImageToBraille.fromPath(image, false, 156);
 #### To turn Braille text to image
 ```java 
 String brailleLines = "⠀⠀⠀⠀⠀⠀⢀⣠⣤⣶\n" +
-					  "⣀⣀⣤⣴⣾⣿⣿⣿⣿\n";
+		      "⣀⣀⣤⣴⣾⣿⣿⣿⣿\n";
 BufferedImage image = ImageToBraille.fromBraille(brailleLines);
 ```
 Also works if `brailleLines` is a list of string:
