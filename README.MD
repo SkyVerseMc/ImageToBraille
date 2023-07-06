@@ -2,13 +2,10 @@
 
 A tool that converts images to Braille text and vice versa.
 
-## Install
+## How to install
 You can clone this repo, copy the contents of ImageToBraille.java or [download the jar file](./releases).
 
 ## How to use it
-
-If you want to use it as standalone tool:
-
 
 ### As a standalone app
 
@@ -23,7 +20,7 @@ Call the jar file like this:
 |`contrast <number between 1 and 254>`|Sets the luminance at which the pixel becomes darker or lighter.
 |`output <path to file>`|Writes the result to a text file.
 
-You can add a hyphen before the arguments but this will not change anything.
+You can add a dash before the arguments but this will not change anything.
 
 ### As a library
 As a util class, you can use static access to methods.
